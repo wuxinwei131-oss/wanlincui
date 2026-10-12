@@ -1,0 +1,373 @@
+member,column,meaning
+data/S5_external_quantiles.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S5_external_quantiles.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S5_external_quantiles.csv,TV2_L1_G0_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G0_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G0_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G0_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G0_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G0_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L1_G1_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G0_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,TV2_L2_G1_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,B2_L1_equalblock_selected_PB3_10,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_external_quantiles.csv,B2_L1_equalblock_selected_PB3_50,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_external_quantiles.csv,B2_L1_equalblock_selected_PB3_90,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_external_quantiles.csv,ridge_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,ridge_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,ridge_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,weighted_logit_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,weighted_logit_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,weighted_logit_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,depth2_tree_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,depth2_tree_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,depth2_tree_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,G0_MATCHED_L2_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,G0_MATCHED_L2_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,G0_MATCHED_L2_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,ALWAYS_A1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,ALWAYS_A1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_external_quantiles.csv,ALWAYS_A1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S5_held_quantiles.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S5_held_quantiles.csv,TV2_L1_G0_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G0_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G0_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G0_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G0_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G0_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L1_G1_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G0_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R0_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R0_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R0_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,TV2_L2_G1_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,B2_L1_equalblock_selected_PB3_10,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_held_quantiles.csv,B2_L1_equalblock_selected_PB3_50,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_held_quantiles.csv,B2_L1_equalblock_selected_PB3_90,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/S5_held_quantiles.csv,ridge_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,ridge_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,ridge_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,weighted_logit_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,weighted_logit_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,weighted_logit_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,depth2_tree_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,depth2_tree_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,depth2_tree_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,G0_MATCHED_L2_R1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,G0_MATCHED_L2_R1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,G0_MATCHED_L2_R1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,ALWAYS_A1_10,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,ALWAYS_A1_50,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S5_held_quantiles.csv,ALWAYS_A1_90,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_corn_Z0.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_corn_Z0.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S9_corn_Z0.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S9_corn_Z0.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/S9_corn_Z0.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/S9_corn_Z1.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_corn_Z1.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S9_corn_Z1.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S9_corn_Z1.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/S9_corn_Z1.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/S9_corn_Z3.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_corn_Z3.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S9_corn_Z3.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S9_corn_Z3.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/S9_corn_Z3.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/S9_soybean_Z1.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_soybean_Z1.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S9_soybean_Z1.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S9_soybean_Z1.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/S9_soybean_Z1.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/S9_soybean_Z1.csv,A0_q10_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z1.csv,A0_q50_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z1.csv,A0_q90_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z1.csv,A1_q10_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z1.csv,A1_q50_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z1.csv,A1_q90_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/S9_soybean_Z2.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/S9_soybean_Z2.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/S9_soybean_Z2.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/S9_soybean_Z2.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/S9_soybean_Z2.csv,A0_q10_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,A0_q50_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,A0_q90_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,A1_q10_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,A1_q50_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/S9_soybean_Z2.csv,A1_q90_mg_ha,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/corn_excluded_FIPS.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/draws/Figure_2_corn_source_B_draws.csv,draw_id,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_corn_source_B_draws.csv,value,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_external_B_draws.csv,draw_id,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_external_B_draws.csv,value,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_held_B_draws.csv,draw_id,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_held_B_draws.csv,value,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_source_B_draws.csv,draw_id,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/draws/Figure_2_soybean_source_B_draws.csv,value,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/forecast_keys.csv,crop,corn or soybean
+data/forecast_keys.csv,condition,"source (temporal), held (held-state), external"
+data/forecast_keys.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/forecast_keys.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/predictor_support.csv,crop,corn or soybean
+data/predictor_support.csv,domain,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/predictor_support.csv,GEOID,Five-character county FIPS string
+data/predictor_support.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/predictor_support.csv,block_id,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/predictor_support.csv,prior_crop_effective_area_m2,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/predictor_support.csv,prior_crop_effective_area_km2,"Prior-crop effective area, square km"
+data/predictor_support.csv,median_valid_weight_fraction,Optical valid crop-weight fraction
+data/predictor_support.csv,minimum_valid_weight_fraction,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/predictor_support.csv,longest_missing_run,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/predictor_support.csv,evaluation_weight,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,crop,corn or soybean
+data/scored_records.csv,condition,"source (temporal), held (held-state), external"
+data/scored_records.csv,state,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,county_fips,Five-character US county FIPS; never numeric conversion
+data/scored_records.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+data/scored_records.csv,ERS_region,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,geo,State or ERS region as specified by condition
+data/scored_records.csv,block,Geographic-year scoring block
+data/scored_records.csv,yield_mg_ha,"Observed county yield, Mg ha^-1"
+data/scored_records.csv,action,Frozen complete-vector action A0 or A1; exact score tie selects A0
+data/scored_records.csv,benefit_score,Frozen predicted relative-loss advantage; positive selects A1
+data/scored_records.csv,weight,Sum-one evaluation weight; equal occupied geographic-year blocks
+data/scored_records.csv,median_valid_weight_fraction,Optical valid crop-weight fraction
+data/scored_records.csv,prior_crop_effective_area_km2,"Prior-crop effective area, square km"
+data/scored_records.csv,A0_q10,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,A0_q50,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,A0_q90,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,A1_q10,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,A1_q50,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,A1_q90,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,selector_q10,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,selector_q50,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,selector_q90,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+data/scored_records.csv,frozen_A0_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,frozen_A1_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,frozen_selector_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,A0_pin10,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A0_pin50,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A0_pin90,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A0_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,A1_pin10,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A1_pin50,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A1_pin90,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,A1_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,selector_pin10,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,selector_pin50,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,selector_pin90,"Quantile-specific pinball loss, Mg ha^-1"
+data/scored_records.csv,selector_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+data/scored_records.csv,B,"Augmentation gain A0_PB3 minus A1_PB3, Mg ha^-1"
+data/scored_records.csv,V,"Selection gain A1_PB3 minus selector_PB3, Mg ha^-1"
+data/scored_records.csv,O,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,category,Realized action/loss category; not a training label
+data/scored_records.csv,avoided,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,added,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,missed,Frozen source field; used without scientific transformation by the corresponding evaluator
+data/scored_records.csv,source_row_id,Scientific order/key: crop/condition/FIPS/year
+expected/Figure_2_summary.csv,crop,corn or soybean
+expected/Figure_2_summary.csv,condition,"source (temporal), held (held-state), external"
+expected/Figure_2_summary.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,counties,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,R0,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,R1,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,Rpi,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,RO,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,B,"Augmentation gain A0_PB3 minus A1_PB3, Mg ha^-1"
+expected/Figure_2_summary.csv,V,"Selection gain A1_PB3 minus selector_PB3, Mg ha^-1"
+expected/Figure_2_summary.csv,avoided,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,added,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,missed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,H,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,G,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,Blo,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,Bhi,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,B_range_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,B_range_seed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,B_range_origin,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,Vlo,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,Vhi,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,V_range_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,V_range_seed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Figure_2_summary.csv,V_range_origin,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,condition,"source (temporal), held (held-state), external"
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,left,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,right,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,metric,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,paired_blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,observed_left_minus_right,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,two_way_2p5,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,two_way_97p5,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,descriptive_resample_P_left_better,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,resamples,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/QA2_PAIRED_TWO_WAY_RESAMPLING.csv,seed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_annual.csv,crop,corn or soybean
+expected/S1_annual.csv,condition,"source (temporal), held (held-state), external"
+expected/S1_annual.csv,year,"Analysis year; 2019-2024, temporal corn through 2023"
+expected/S1_annual.csv,forecast,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_annual.csv,scored,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_annual.csv,counties,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_flow.csv,crop,corn or soybean
+expected/S1_flow.csv,condition,"source (temporal), held (held-state), external"
+expected/S1_flow.csv,predictor_eligible,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_flow.csv,forecast,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_flow.csv,scored,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_flow.csv,prefilter,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/S1_flow.csv,post_unscored,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,crop,corn or soybean
+expected/Supplementary_Table_S7_all_deletions.csv,condition,"source (temporal), held (held-state), external"
+expected/Supplementary_Table_S7_all_deletions.csv,axis,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,omitted,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,metric,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,full_gain,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,remaining_gain,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,influence,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,sign_reversal,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,n_remaining,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,blocks_remaining,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_all_deletions.csv,in_main_figure,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,crop,corn or soybean
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,condition,"source (temporal), held (held-state), external"
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_matched_absolute_losses.csv,blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,crop,corn or soybean
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,metric,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,difference,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,lo,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,hi,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,draws,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/Supplementary_Table_S7_paired_contrasts_and_ranges.csv,seed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_action_frequencies_and_severity.csv,crop,corn or soybean
+expected/all_six_action_frequencies_and_severity.csv,condition,"source (temporal), held (held-state), external"
+expected/all_six_action_frequencies_and_severity.csv,category,Realized action/loss category; not a training label
+expected/all_six_action_frequencies_and_severity.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_action_frequencies_and_severity.csv,weight_share,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_action_frequencies_and_severity.csv,mean_absolute_gap_within_category,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_action_frequencies_and_severity.csv,full_sample_absolute_gap_contribution,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,crop,corn or soybean
+expected/all_six_loss_decompositions.csv,condition,"source (temporal), held (held-state), external"
+expected/all_six_loss_decompositions.csv,records,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,R0,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,R1,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,Rpi,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,RO,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,B,"Augmentation gain A0_PB3 minus A1_PB3, Mg ha^-1"
+expected/all_six_loss_decompositions.csv,V,"Selection gain A1_PB3 minus selector_PB3, Mg ha^-1"
+expected/all_six_loss_decompositions.csv,avoided,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,added,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,missed,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,H,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/all_six_loss_decompositions.csv,G,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,support,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,policy,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,comparator,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,paired_delta_PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+expected/archived_QA1_ranges.csv,descriptive_2p5,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,descriptive_97p5,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,valid_replicates,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,role,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/archived_QA1_ranges.csv,version,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,crop,corn or soybean
+expected/coverage_exchanges.csv,condition,"source (temporal), held (held-state), external"
+expected/coverage_exchanges.csv,left_method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,right_method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,newly_covered_weight,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,newly_uncovered_weight,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,net_coverage_change_pp,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/coverage_exchanges.csv,different_state_weight,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,crop,corn or soybean
+expected/group_thresholds.csv,variable,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,cut_1,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,cut_2,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,reference_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,reference_blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/group_thresholds.csv,reference,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/paired_interval_membership_transitions.csv,crop,corn or soybean
+expected/paired_interval_membership_transitions.csv,condition,"source (temporal), held (held-state), external"
+expected/paired_interval_membership_transitions.csv,left_method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/paired_interval_membership_transitions.csv,right_method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/paired_interval_membership_transitions.csv,left_event,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/paired_interval_membership_transitions.csv,right_event,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/paired_interval_membership_transitions.csv,weight,Sum-one evaluation weight; equal occupied geographic-year blocks
+expected/paired_interval_membership_transitions.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/quantile_gain_and_PB3_contribution.csv,crop,corn or soybean
+expected/quantile_gain_and_PB3_contribution.csv,condition,"source (temporal), held (held-state), external"
+expected/quantile_gain_and_PB3_contribution.csv,tau,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/quantile_gain_and_PB3_contribution.csv,gain,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/quantile_gain_and_PB3_contribution.csv,PB3_contribution,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+expected/quantile_gain_and_PB3_contribution.csv,cumulative_contribution,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,crop,corn or soybean
+expected/reliability_full_S10.csv,condition,"source (temporal), held (held-state), external"
+expected/reliability_full_S10.csv,method,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,PB3,"Mean pinball loss over quantiles 0.1, 0.5, 0.9, Mg ha^-1"
+expected/reliability_full_S10.csv,median_MAE,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,lower_tail,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,coverage,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,upper_tail,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,interval_width,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,adjacent_crossing_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,adjacent_crossing_weight,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,inverted_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,zero_width_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,negative_any_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,negative_any_weight,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,negative_entries_n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/reliability_full_S10.csv,below_q10,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,ties_q10_n,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,deviation_q10_pp,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,below_q50,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,ties_q50_n,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,deviation_q50_pp,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,below_q90,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,ties_q90_n,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/reliability_full_S10.csv,deviation_q90_pp,"Frozen quantile prediction, Mg ha^-1; suffix gives percentile"
+expected/support_groups.csv,crop,corn or soybean
+expected/support_groups.csv,condition,"source (temporal), held (held-state), external"
+expected/support_groups.csv,variable,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,group,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,n,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,counties,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,blocks,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,regions,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,B,"Augmentation gain A0_PB3 minus A1_PB3, Mg ha^-1"
+expected/support_groups.csv,V,"Selection gain A1_PB3 minus selector_PB3, Mg ha^-1"
+expected/support_groups.csv,B_equalblock,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,V_equalblock,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,source_weight_mass,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,cut_1,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
+expected/support_groups.csv,cut_2,Archived verification value; column label identifies statistic; see evaluator and manuscript methods
