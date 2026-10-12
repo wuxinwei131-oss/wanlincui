@@ -1,0 +1,342 @@
+[
+  {
+    "function_group": "CROP_WEATHER_OPTICAL_CONSTRUCTION",
+    "executed_stage": "CRP_C0_CLEAN_PREDICTOR_BUILD_20260912_160900",
+    "source_sha256": "7c229443abbdec395275207b324348e22a26ef8b831d7eba15929bf15f24e0c2",
+    "source_functions": "main",
+    "candidate_path": "methods/c0_counties.py",
+    "candidate_sha256": "d56f9434a6f91083390365cf7fefcd1555c22ecf4bcfe3fa4f4513066599abe1",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "CROP_WEATHER_OPTICAL_CONSTRUCTION",
+    "executed_stage": "CRP_C0_CLEAN_PREDICTOR_BUILD_20260912_160900",
+    "source_sha256": "a3846a9e59ab554443f2d3c353d47210a8552f28bc50b15d44023b829cbab6a0",
+    "source_functions": "sha; counties; grid; archive; extracted; binary; fraction; boundary; pixel_areas; weights; main",
+    "candidate_path": "methods/c0_support.py",
+    "candidate_sha256": "92a1772adc4027dc9728038e4d3eb299a60365b0db26ea16baf752fefe943a2a",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "CROP_WEATHER_OPTICAL_CONSTRUCTION",
+    "executed_stage": "CRP_C0_CLEAN_PREDICTOR_BUILD_20260912_160900",
+    "source_sha256": "cf07e705de4fadfa1026b2a945f509a22809c966478fd70a54fb84b24dd78e7a",
+    "source_functions": "monthly_image; main",
+    "candidate_path": "methods/c0_weather.py",
+    "candidate_sha256": "eaf64a5ce812f9b2e770a502b30e88b6427f2734d7dc93711b58f8fb5091cb2f",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "CROP_WEATHER_OPTICAL_CONSTRUCTION",
+    "executed_stage": "CRP_C0_CLEAN_PREDICTOR_BUILD_20260912_160900",
+    "source_sha256": "c18f308cbc60439fb4faa3b56cfd659b27fde78ab83e6ec1668576ef83691616",
+    "source_functions": "dates; prepared; event; prefetch_tile; main",
+    "candidate_path": "methods/c0_optical.py",
+    "candidate_sha256": "a5ce65f7efd96293136458050f9b71ee45108a0c7c6535c8c6d0d7ceeb107e43",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "TARGET_HISTORY_FEATURES_AND_ENDPOINTS",
+    "executed_stage": "CRP_C1L_LITE_TARGET_CORE_RESCUE_20260913_131105",
+    "source_sha256": "b512b850e0bda16ae399e685e5b7cfad87dd8fa6d529bad47aa69dd4a05da511",
+    "source_functions": "sha; number; main",
+    "candidate_path": "methods/c1l_targets.py",
+    "candidate_sha256": "6c80677f43ec19cffd548a0ab49f38290195dadcd1aab86b5e6d2b91e24add38",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "TARGET_HISTORY_FEATURES_AND_ENDPOINTS",
+    "executed_stage": "CRP_C1L_LITE_TARGET_CORE_RESCUE_20260913_131105",
+    "source_sha256": "486c2912c9542f0184672e33a299331ed9ae01e320175e5236bcf7a32e68de10",
+    "source_functions": "huber_fit; main",
+    "candidate_path": "methods/c1l_history.py",
+    "candidate_sha256": "1ec157f05b4751ae607569cd7fbd00360409a9d3a36cf2a0d45ee4e424b1a88a",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "TARGET_HISTORY_FEATURES_AND_ENDPOINTS",
+    "executed_stage": "CRP_C1L_LITE_TARGET_CORE_RESCUE_20260913_131105",
+    "source_sha256": "5bdca259d2ada16ead54b1f264fc35e1ebbbc8e4758aa75df40a53c2dda71c06",
+    "source_functions": "signal_stats; main",
+    "candidate_path": "methods/c1l_features.py",
+    "candidate_sha256": "c2d4bdaf5543ce37853fb5318633a42624f5332575b9ba295d0896d0155a8a41",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "TARGET_HISTORY_FEATURES_AND_ENDPOINTS",
+    "executed_stage": "CRP_C1L_LITE_TARGET_CORE_RESCUE_20260913_131105",
+    "source_sha256": "e71317b37b47f8eb05e8b1b6a8fae12908afe2dd00986dc5ef956c5a0c8de108",
+    "source_functions": "sha; pinball; lgb_model; elastic_model; novelty; run",
+    "candidate_path": "methods/c1l_model.py",
+    "candidate_sha256": "34fc887c40c71b0fb572b47e6e4baefb96f76e96fcc8b8d58b386e434101cf42",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "9159d5663a4b2b0e01be46a9f2c56514b3642f7788cdd5794fb891b007c31fc4",
+    "source_functions": "",
+    "candidate_path": "methods/tv2_pipeline/__init__.py",
+    "candidate_sha256": "5434bc231efa24968a2a0092860b4df41a5fc0da729713b3199c27b43b57df5d",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "773c6100a7741dbe69512545136d84d4fbb24beabcea2ad722df6a26910cb893",
+    "source_functions": "pinball; loss_pair; action_from_delta; selected_prediction; blend_prediction; block_weights; equal_block_metric; source_selected_static; source_selected_blend; aggregate_metrics",
+    "candidate_path": "methods/tv2_pipeline/loss.py",
+    "candidate_sha256": "a3e856997ef01b0f24a7eb5e844d00643d1977dc78f2aa66e7473b9120ea50e1",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "b99caf06b02df4e032bbc47bb3af9a59554965a3bb9bb2821c4553c52339f250",
+    "source_functions": "fit_source_pair; build_meta_labels; build_B_history; _numeric_frame; FoldSafeRepresentation; weather_optical_residual; fit_router; fit_comparators; bridge_scores",
+    "candidate_path": "methods/tv2_pipeline/models.py",
+    "candidate_sha256": "4575acbb1606de2cf3e440dc08dffd4e8497de20b555d99af47307c25bce6650",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "0bdf83e69a3baa5c955eba23f0406c06a2ea78aa1e2ae727e0bd904fec691317",
+    "source_functions": "_keys; _matrix_columns; _nested_fold_provenance; _frame_sha; _source_record; NestedBlockRunner",
+    "candidate_path": "methods/tv2_pipeline/orchestrator.py",
+    "candidate_sha256": "a37f443498f49aaca5fae780f94c90376e90028cd371b4b3fd9c337680551269",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "70d03be6b81747fb29b1ad4510cd51691b59af7e187c8146800c948ed118ca67",
+    "source_functions": "semantic_key; Cache; _fit_spec; canonical_source_fit_key; CanonicalSourceFitCache; _context_spec; canonical_source_context_key; CanonicalSourceContextCache",
+    "candidate_path": "methods/tv2_pipeline/cache.py",
+    "candidate_sha256": "abf0430975443dd72b938fdd7b38b6d1daad80a89d27788f75a7fa5855e6a77a",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "28257c0f5cf75f0c2e5ecfdc0ba11573d97251be92cce5ad5453160a4283e0f1",
+    "source_functions": "canonical; digest; file_sha; code_tree_sha; safe_path; _validate_record; ProvenanceGraph",
+    "candidate_path": "methods/tv2_pipeline/provenance.py",
+    "candidate_sha256": "49387b97467922438b3879703dcc9fe12fc17d8f5711a889762aa5be7e1af15d",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "6a0582780b0781648864cdd741d9ebee2869f77456caed23b12508d35207fded",
+    "source_functions": "_keys_sha; _content_sha; _fit_batch; fit_source_pair_parallel",
+    "candidate_path": "methods/tv2_pipeline/parallel_source.py",
+    "candidate_sha256": "ba1a00a632ec2ca2b0ea4c29e8ff78851287159f8fec2b6a8e8ee07a8bac6efb",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "d58321f33099e20194a128f459fe1d2e85eb96a7768dd139146c7d65190caab2",
+    "source_functions": "freeze_scores; freeze_actions",
+    "candidate_path": "methods/tv2_pipeline/artifacts.py",
+    "candidate_sha256": "bac2d66519aa47de63521c4974772642b78375a72382313dd7595b5991830075",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "d62a8309672a5859dcbc759cf90c5d86dfcebbf3ecf76cfd6f3d7a793c965707",
+    "source_functions": "task_status; propagate",
+    "candidate_path": "methods/tv2_pipeline/failure.py",
+    "candidate_sha256": "daa62302257971ba07a40864c943bbc44cfbabe09e0df638814b276d9a77a05d",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ENDPOINT_SELECTOR_WEIGHTS_NESTED_VALIDATION",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "ff831d6ea581770ea47dca01c6b5e16e200f2bbfc8431f97cbcffcae014e3f92",
+    "source_functions": "plan; registered_development_blocks",
+    "candidate_path": "methods/tv2_pipeline/task_graph.py",
+    "candidate_sha256": "adccc0a7a58dc992bcbfdc2f63bc66b051c6296ded26dccdcff2601669142380",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "b125e6497ee9f696943b0ee8708052c13f87af845a12d880783716cab5d3e01e",
+    "source_functions": "huber; ReferenceBroker",
+    "candidate_path": "methods/tv5_reference.py",
+    "candidate_sha256": "2f012dd4d9ecfc7f3025e01bde3090abe0588873528a6de8e5ca1b7a66ca4c39",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "eae9ea70ca14f87db4792b0e5fca9d32408593b42c5dc115504c830f00dfb1b5",
+    "source_functions": "sha; frame_sha; source_context_lock; Inputs",
+    "candidate_path": "methods/tv5_source_model.py",
+    "candidate_sha256": "a0cdc059ba771cf926d65bdbed723c9166be49892bd1734947e4c156cbc6ece9",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "7dc971d4ea5c3353ab5e09fa2cf3883a204c85cb916ecfa7eed8304c91f194ce",
+    "source_functions": "sha; concat_meta; condition_domain; fit_one",
+    "candidate_path": "methods/tv5_upper.py",
+    "candidate_sha256": "92ddad31d0f46593da5d54901a105876830d5712793b402805476b6018ce4a25",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "fc181cf4ee540b702cac19f4f7623f9462b7421d08228873b600bbfe6875e723",
+    "source_functions": "key_lock; LockedCanonicalSourceFitCache",
+    "candidate_path": "methods/tv5_canonical_fit_cache.py",
+    "candidate_sha256": "7761f1e6799dc9a97ee8f7b68199fc7849e1e6baf403d853487be5b3ebfcd359",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "bd57176889115418729b8b9e3b89684fec5276c33ff51a579d8a795454054d5a",
+    "source_functions": "sha; main",
+    "candidate_path": "methods/freeze_historical_domains.py",
+    "candidate_sha256": "22e68706c459c16068b20f0b556c79149bc3475712f1c5558064ced3e36ad651",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "47f5336bf1a5a3c2cddd679d9a85e810987c5e55886545bf9f57ceb1330d4fb1",
+    "source_functions": "sha; number; main",
+    "candidate_path": "methods/build_safe_soybean_history_panel.py",
+    "candidate_sha256": "df483fbb409808f4a49b3028d8c9cd4481e0a466a43475d2709faf836633ccd2",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "d07b955f789313f31b413918bf420bbeec39fe09afef5a283a81a20a0b1041db",
+    "source_functions": "sha; longest_false; support_quality; main",
+    "candidate_path": "methods/assemble_and_freeze_soybean_predictors.py",
+    "candidate_sha256": "02c7c84f4f9fca0c774ac9db26e922ed0602333bd47b0094ef5cd5a06eeafbd8",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "15ca5e127c61d1485aca9722ad02a2e4185a011f0ad64aaeffc2eaec112b75a4",
+    "source_functions": "sha; number; request_retry; historical_locations; main",
+    "candidate_path": "methods/tv5_label_broker.py",
+    "candidate_sha256": "2e057fd00832fb880772f5096976dca09bbb327c73704fc20ffda5056aa2b73a",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "SOYBEAN_REPLICATION_AND_DATA_RULES",
+    "executed_stage": "code",
+    "source_sha256": "30ee977a41d9b9416904fb70908c54083ce144b7814e85b4d1f72ff622760097",
+    "source_functions": "sha; pinball; evaluate_prediction; main",
+    "candidate_path": "methods/tv5_evaluator.py",
+    "candidate_sha256": "8e749eb189adf7f873ba1fd4c9b908ff9a5fdf765f20d19ff71ca11f8167576d",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ACTUAL_SOYBEAN_CROP_SPECIFIC_PREPROCESSING",
+    "executed_stage": "adapter",
+    "source_sha256": "a4cd8ab137f51289d1275721e5fbb2f898813fae83c878557819aae1568d002d",
+    "source_functions": "sha; counties; grid; archive; extracted; binary; fraction; boundary; pixel_areas; weights; main",
+    "candidate_path": "methods/soybean/c0_support.py",
+    "candidate_sha256": "305681bed097ac9031fab9a5767ea2a347545efd90025b921718d390ddef1ed7",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ACTUAL_SOYBEAN_CROP_SPECIFIC_PREPROCESSING",
+    "executed_stage": "adapter",
+    "source_sha256": "3c48a113f53eeeeb7a86bbb6fe208739d2567295f2d07accdb48cca323d767a5",
+    "source_functions": "monthly_image; main",
+    "candidate_path": "methods/soybean/c0_weather.py",
+    "candidate_sha256": "a039529fcf27db9932b73d8110b81ee1f153c0873ee35b7ba5345d4112877d87",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ACTUAL_SOYBEAN_CROP_SPECIFIC_PREPROCESSING",
+    "executed_stage": "adapter",
+    "source_sha256": "7ba9f291691d720f6f3097ec95ba70b74c404fffe6c7c2d372dbdcce1aa6836e",
+    "source_functions": "dates; prepared; event; prefetch_tile; main",
+    "candidate_path": "methods/soybean/c0_optical.py",
+    "candidate_sha256": "96e659c41b86e159ddbd3ec4ba975884f5665d82455495222f436a2acb4b5a3f",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "S9_INFORMATION_SET_SELECTOR_IMPLEMENTATION",
+    "executed_stage": "code",
+    "source_sha256": "151187e9243a36cb85378cafa8993741d4245bd78a016acbb69aee986fd92a60",
+    "source_functions": "sha; load; dump; keys; Inputs; CacheIndex; concat_meta; z3_inputs; fit_one; run",
+    "candidate_path": "methods/qa2_model.py",
+    "candidate_sha256": "008db5375b998fdc9dcf8d8ed10eaf8cb54735f62f424085403d007dace39a95",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "S9_PAST_TARGET_YEAR_LOCAL_CALIBRATION",
+    "executed_stage": "code",
+    "source_sha256": "201d58efba6877148f46af775cc307d54e9ad9b5d4c86c7ab7ba62bd5ca9fde2",
+    "source_functions": "fixed_scores; prior_data; main",
+    "candidate_path": "methods/qa2_local_calibrate.py",
+    "candidate_sha256": "41f423381ae331fd6a7be549102f160dcfe7bf8e824d2de7169a1d207e82c49f",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ACTUAL_EXTERNAL_GEOGRAPHIC_EXCLUSION_RULES",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "0f080331a9647b91f6131d075c4e11d51c0caee1d3fedd25d84896fab8e1b107",
+    "source_functions": "plan; registered_development_blocks",
+    "candidate_path": "methods/external_task_graph.py",
+    "candidate_sha256": "5b9a23ba2602b19d20f4626d9e0fa529ffc58b9a9b921d0d16d051b2d1d9c956",
+    "transformation": "ORIGINAL_METHOD_SOURCE_WITH_EXPLICIT_IO_ADAPTER",
+    "scientific_algorithm_change": "NONE"
+  },
+  {
+    "function_group": "ACTUAL_EXTERNAL_GEOGRAPHIC_EXCLUSION_RULES",
+    "executed_stage": "tv2_pipeline",
+    "source_sha256": "03b488f54fb47b6727bd108b7bd35afd0aabf3b25ed2e34350288e78524a6c31",
+    "source_functions": "canonical; digest; file_sha; code_tree_sha; safe_path; _validate_record; ProvenanceGraph",
+    "candidate_path": "methods/external_provenance.py",
+    "candidate_sha256": "e364c53a1b89be2d0e9596503c0153c42622c9e60d291ff99acacd17e0d8fd00",
+    "transformation": "EXACT_SOURCE_TEXT",
+    "scientific_algorithm_change": "NONE"
+  }
+]
